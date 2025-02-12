@@ -31,4 +31,33 @@ php artisan serve
 
 ### Laravel
 
+```sh
+php artisan migrate
+```
+
+```sh
+php artisan install:api
+```
+
+```sh
+php artisan make:migration create_products_table
+```
+
+```sh
+php artisan make:model Product
+```
+Inside API folder
+```sh
+php artisan make:controller Api/ProductController
+```
+
+Get all route methods list
+```sh
+php artisan route:list
+```
+
+```sh
+php artisan make:resource ProductResource
+```
+
 
