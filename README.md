@@ -23,6 +23,12 @@ cd /opt/lampp
 sudo ./manager-linux-x64.run
 ```
 
+### PHP
+
+```sh
+php arisan serve
+```
+
 ### Laravel
 
 
