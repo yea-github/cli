@@ -23,6 +23,12 @@ cd /opt/lampp
 sudo ./manager-linux-x64.run
 ```
 
+Install
+
+```sh
+sudo dpkg -i packagename.deb
+```
+
 ### PHP
 
 ```sh
@@ -58,6 +64,13 @@ php artisan route:list
 
 ```sh
 php artisan make:resource ProductResource
+```
+
+### VS Code
+
+```sh
+cd /opt/lampp/htdocs/demo-site/laravel-test
+code .
 ```
 
 
