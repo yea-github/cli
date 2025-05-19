@@ -66,6 +66,18 @@ php artisan route:list
 php artisan make:resource ProductResource
 ```
 
+```sh
+composer require tymon/jwt-auth
+```
+
+```sh
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+```
+
+```sh
+php artisan jwt:secret
+```
+
 ### VS Code
 
 ```sh
