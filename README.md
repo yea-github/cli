@@ -78,6 +78,10 @@ php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServicePro
 php artisan jwt:secret
 ```
 
+```sh
+php artisan make:controller AuthController
+```
+
 ### VS Code
 
 ```sh
