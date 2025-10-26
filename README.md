@@ -42,6 +42,10 @@ php artisan migrate
 ```
 
 ```sh
+php artisan migrate:refresh
+```
+
+```sh
 php artisan install:api
 ```
 
@@ -80,6 +84,14 @@ php artisan jwt:secret
 
 ```sh
 php artisan make:controller AuthController
+```
+
+```sh
+composer require tymon/jwt-auth
+```
+
+```sh
+composer require tymon/jwt-auth --ignore-platform-reqs
 ```
 
 ### VS Code
