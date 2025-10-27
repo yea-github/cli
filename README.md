@@ -36,15 +36,21 @@ php artisan serve
 ```
 
 ### Laravel
-
 ```sh
 php artisan migrate
 ```
-
 ```sh
 php artisan migrate:refresh
 ```
-
+```sh
+php artisan migrate:fresh
+```
+```sh
+php artisan migrate:status
+```
+```sh
+php artisan migrate:rollback
+```
 ```sh
 php artisan install:api
 ```
